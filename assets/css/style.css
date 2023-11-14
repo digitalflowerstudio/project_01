@@ -47,7 +47,10 @@ header nav ul li a {
 
 /* -- Section Welcome -- */
 
-.welcome {
+.welcome,
+.applications,
+.suggestions,
+.examples {
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -64,6 +67,10 @@ header nav ul li a {
     font-family: "MerriweatherLight";
 }
 
+.applications-text {
+    margin-bottom: 2em;
+}
+
 .absurd {
     display: flex;
     justify-content: center;
@@ -78,11 +85,16 @@ header nav ul li a {
     margin-bottom: 3em;
 }
 
+.applications {
+    margin-bottom: 3em;
+}
+
 .imperfection p,
 .absurd p,
 .expressiveness p,
 .applications p {
     margin-top: 2em;
+    max-width: 600px;
 }
 
 .imperfection {
