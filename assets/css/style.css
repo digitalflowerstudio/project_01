@@ -10,7 +10,7 @@
     font-weight: 200;
 }
 
-/* ----------------- Global Styles ---------------- */
+/* --Global Styles -- */
 
 * {
     margin: 0;
@@ -52,7 +52,8 @@ header nav ul li a {
 .suggestions,
 .examples,
 .downloads,
-.membership {
+.membership,
+.suggestions {
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -88,6 +89,10 @@ header nav ul li a {
 }
 
 .applications {
+    margin-bottom: 3em;
+}
+
+.membership {
     margin-bottom: 3em;
 }
 
@@ -230,7 +235,7 @@ header nav ul li a {
     margin-top: 3em;
     background-color: rgb(199, 225, 225);
     border-radius: 1em;
-    padding: 5em;
+    padding: 3em;
     width: min-content;
 }
 
@@ -241,6 +246,52 @@ header nav ul li a {
 
 .member {
     margin-top: 1em;
+}
+
+.member a {
+    color: white;
+    text-decoration: none;
+}
+
+.becomeMember {
+    padding: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: rgb(0, 166, 255);
+}
+
+.benefits {
+    margin-top: 1em;
+    text-align: center;
+    list-style: none;
+}
+
+/* -- Footer -- */
+
+.suggestions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 2em;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    list-style: none;
+}
+
+.suggestions h1 {
+    margin-bottom: 1em;
+}
+
+.email,
+.followme {
+    font-size: 0.9em;
+    color: rgb(165, 157, 157);
 }
 
 
