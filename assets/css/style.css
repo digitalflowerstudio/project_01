@@ -92,7 +92,8 @@ header nav ul li a {
 .imperfection p,
 .absurd p,
 .expressiveness p,
-.applications p {
+.applications p,
+.examples p {
     margin-top: 2em;
     max-width: 600px;
 }
@@ -153,7 +154,54 @@ header nav ul li a {
     height: auto,
 }
 
+/* -- Section Applications -- */
 
+.applications {
+    margin-top: 5em;
+}
+
+.applications-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.illustrations-applications {
+    display: flex;
+    justify-content: center;
+}
+
+.illustrations-applications img {
+    width: 30%;
+    height: auto,
+}
+
+/* -- Section Applications -- */
+
+.examples {
+    margin-top: 5em;
+}
+
+.examples-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.images-examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.images-examples img {
+    width: 40%;
+    height: auto,
+}
 
 /* -- Article Absurd - Buttons -- */
 
@@ -187,32 +235,10 @@ header nav ul li a {
 .subscribe {
     background-color: white;
     border: 2px solid black;
+    border-style: inset;
 }
 
 .subscribe a {
     text-decoration: none;
     color: black;
-}
-
-/* -- Section Applications -- */
-
-.applications {
-    margin-top: 5em;
-}
-
-.applications-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.illustrations-applications {
-    display: flex;
-    justify-content: center;
-}
-
-.illustrations-applications img {
-    width: 30%;
-    height: auto,
 }
