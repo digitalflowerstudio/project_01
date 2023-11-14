@@ -80,7 +80,8 @@ header nav ul li a {
 
 .imperfection p,
 .absurd p,
-.expressiveness p {
+.expressiveness p,
+.applications p {
     margin-top: 2em;
 }
 
@@ -179,4 +180,27 @@ header nav ul li a {
 .subscribe a {
     text-decoration: none;
     color: black;
+}
+
+/* -- Section Applications -- */
+
+.applications {
+    margin-top: 5em;
+}
+
+.applications-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.illustrations-applications {
+    display: flex;
+    justify-content: center;
+}
+
+.illustrations-applications img {
+    width: 30%;
+    height: auto,
 }
