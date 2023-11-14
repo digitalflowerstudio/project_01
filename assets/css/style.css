@@ -1,9 +1,69 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+/* ----------------- Global Styles ---------------- */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    font-family: "Merriweather";
+}
+
 body {
     height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* ----------------- Navigation ---------------- */
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 2rem;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ----------------- Buttons ---------------- */
+
+.download a,
+.subscribe a {
+    color: black;
+}
+
+.download,
+.subscribe {
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.download {
+    background-color: black;
+}
+
+.download a {
+    color: white;
+    text-decoration: none;
+}
+
+.subscribe {
+    background-color: white;
+}
+
+.subscribe a {
+    text-decoration: none;
 }
