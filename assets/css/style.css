@@ -23,7 +23,7 @@ h1 {
     font-size: 2em;
 }
 
-/* ----------------- Navigation ---------------- */
+/* -- Navigation --*/
 
 header nav ul {
     display: flex;
@@ -38,11 +38,50 @@ header nav ul li a {
     color: black;
 }
 
-/* ----------------- Buttons ---------------- */
+/* -- Section Welcome -- */
+
+.welcome {
+    margin-left: 5em;
+    margin-top: 5em;
+    margin-right: 5em;
+}
+
+.absurd {
+    display: flex;
+    justify-content: center;
+}
+
+.text-absurd {
+    display: flex;
+    flex-direction: column;
+}
+
+.illu-lightbulb {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.illu-lightbulb img {
+    width: 50%;
+    height: fit-content;
+}
+
+.absurd p {
+    margin-top: 2em;
+}
+
+/* -- Article Absurd - Buttons -- */
+
+.buttons {
+    display: flex;
+    gap: 0.6em;
+    margin-top: 1.5em;
+}
 
 .download a,
 .subscribe a {
     color: black;
+    text-decoration: none;
 }
 
 .download,
@@ -66,4 +105,5 @@ header nav ul li a {
 
 .subscribe a {
     text-decoration: none;
+    color: black;
 }
