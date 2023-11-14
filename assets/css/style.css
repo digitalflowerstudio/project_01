@@ -49,7 +49,6 @@ header nav ul li a {
 
 .welcome {
     margin-left: 5em;
-    margin-top: 5em;
     margin-right: 5em;
 }
 
@@ -76,7 +75,7 @@ header nav ul li a {
 
 .illu-lightbulb img {
     width: 50%;
-    height: fit-content;
+    height: auto,
 }
 
 .absurd p {
@@ -114,6 +113,7 @@ header nav ul li a {
 
 .subscribe {
     background-color: white;
+    border: 2px solid black;
 }
 
 .subscribe a {
