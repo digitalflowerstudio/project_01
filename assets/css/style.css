@@ -48,11 +48,19 @@ header nav ul li a {
 /* -- Section Welcome -- */
 
 .welcome {
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .text-absurd p {
+    font-family: "MerriweatherLight";
+}
+
+.text-imperfection p {
+    font-family: "MerriweatherLight";
+}
+
+.text-expressiveness p {
     font-family: "MerriweatherLight";
 }
 
@@ -60,9 +68,41 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3em;
+}
+
+.expressiveness {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.imperfection p,
+.absurd p,
+.expressiveness p {
+    margin-top: 2em;
+}
+
+.imperfection {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
 }
 
 .text-absurd {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-imperfection {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-expressiveness {
     display: flex;
     flex-direction: column;
 }
@@ -78,9 +118,29 @@ header nav ul li a {
     height: auto,
 }
 
-.absurd p {
-    margin-top: 2em;
+.illu-imperfection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+.illu-imperfection img {
+    width: 50%;
+    height: auto,
+}
+
+.illu-expressiveness {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.illu-expressiveness img {
+    width: 50%;
+    height: auto,
+}
+
+
 
 /* -- Article Absurd - Buttons -- */
 
