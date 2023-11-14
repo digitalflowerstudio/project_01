@@ -50,7 +50,9 @@ header nav ul li a {
 .welcome,
 .applications,
 .suggestions,
-.examples {
+.examples,
+.downloads,
+.membership {
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -93,7 +95,8 @@ header nav ul li a {
 .absurd p,
 .expressiveness p,
 .applications p,
-.examples p {
+.examples p,
+.downloads p {
     margin-top: 2em;
     max-width: 600px;
 }
@@ -202,6 +205,44 @@ header nav ul li a {
     width: 40%;
     height: auto,
 }
+
+/* -- Section Downloads -- */
+
+.downloads {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    background-color: rgb(199, 225, 225);
+    border-radius: 1em;
+    padding: 5em;
+    width: min-content;
+}
+
+.price {
+    margin-top: 0.7em;
+    font-size: 4em;
+}
+
+.member {
+    margin-top: 1em;
+}
+
 
 /* -- Article Absurd - Buttons -- */
 
